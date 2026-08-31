@@ -1,35 +1,33 @@
 # David Vornholt
 
-**Founder and software engineer building products, LLM systems, and verifiable agent workflows.**
+**I build product software, LLM systems, and the engineering infrastructure that keeps them reliable.**
 
-I work across product design, typed application architecture, AI systems,
-and declarative infrastructure. I use coding agents extensively, but their
-output ships only after mechanical verification.
+My work spans product design, typed application architecture, AI systems, and
+declarative infrastructure. I care about explicit contracts, fail-closed
+quality gates, and systems that remain understandable as they grow.
 
-## Featured engineering system
+## How I build
 
 ### [standards](https://github.com/davidvornholt/standards)
 
-The public engineering contract behind the repositories I actively maintain:
-one operating model for humans and agents, reusable skills, strict quality
-gates, and a sync engine that keeps consuming projects aligned.
+The public engineering contract behind the repositories I maintain: a shared
+operating model for humans and agents, reusable skills, fail-closed quality
+gates, and a sync engine that keeps projects aligned.
 
 - **Fail closed.** Linting, types, tests, accessibility, structure, and selected
   repository settings are checked mechanically.
-- **Verify the review.** Agent review loops fix findings and then prove the
-  fixes.
+- **Verify the review.** Agent review loops fix findings and then verify the
+  resulting changes.
 - **Share one contract.** Repositories inherit the same standards instead of
   drifting independently.
 - **Strengthen over time.** Gates improve upstream and are never weakened just
   to make a change pass.
 
-> Agents write most of my code. Quality gates decide what ships.
-
 ## Current work
 
 - **[Atrium](https://david.vornholt.online/works/atrium)** — Founder. A platform
-  for the operative day of a school, built around one typed contract from API
-  to screen and currently in pilot at its first school.
+  for a school's day-to-day operations, built around one typed contract from
+  API to screen and currently being piloted at its first school.
 - **[ProsaBridge](https://david.vornholt.online/works/prosabridge)** — Co-founder
   & CTO. Context-aware LLM translation for complete manuscripts while
   preserving terminology, document structure, and editorial workflows.
@@ -37,7 +35,7 @@ gates, and a sync engine that keeps consuming projects aligned.
   — Volunteer lead full-stack developer. A website engagement that grew into
   declarative infrastructure and the first Atrium pilot.
 
-## Selected open source
+## Selected open-source projects
 
 - **[runlet](https://github.com/davidvornholt/runlet)** — Secure, ephemeral
   GitHub Actions runner orchestration for NixOS hosts and rootless Podman.
