@@ -1,54 +1,68 @@
-# Hi there, I'm David Vornholt 👋
+# David Vornholt
 
-**Full Stack Developer & Digital Experience Architect**
+**Founder and software engineer building products, LLM systems, and verifiable agent workflows.**
 
-I am a passionate software engineer with a strong foundation in designing meaningful digital solutions. I focus on bridging the gap between complex technical systems and intuitive user-facing applications, with a specialized interest in Education Technology.
+I work across product design, typed application architecture, AI systems,
+and declarative infrastructure. I use coding agents extensively, but their
+output ships only after mechanical verification.
 
----
+## Featured engineering system
 
-### 🚀 About Me
+### [standards](https://github.com/davidvornholt/standards)
 
-- 🔭 **Currently:** Serving as the Lead Full Stack Developer & Digital Experience Architect (Voluntary) at *Freie Evangelische Schule Kirchheim*.
-- 💡 **Focus:** I design innovative platforms to streamline workflows for students, teachers, and parents, ranging from custom timetable apps to AI-powered decision-making tools.
-- 🌱 **Philosophy:** I prioritize user experience, accessibility, and performance optimization.
-- 🎓 **Education:** Schlossgymnasium Kirchheim (Abitur) & Continuous learning via Coursera (Meta, IBM, UC Irvine).
+The public engineering contract behind the repositories I actively maintain:
+one operating model for humans and agents, reusable skills, strict quality
+gates, and a sync engine that keeps consuming projects aligned.
 
----
+- **Fail closed.** Linting, types, tests, accessibility, structure, and selected
+  repository settings are checked mechanically.
+- **Verify the review.** Agent review loops fix findings and then prove the
+  fixes.
+- **Share one contract.** Repositories inherit the same standards instead of
+  drifting independently.
+- **Strengthen over time.** Gates improve upstream and are never weakened just
+  to make a change pass.
 
-### 🛠 Tech Stack & Skills
+> Agents write most of my code. Quality gates decide what ships.
 
-**Languages & Frameworks**  
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
+## Current work
 
-**DevOps & Infrastructure**  
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
-![OpenShift](https://img.shields.io/badge/OpenShift-EE0000?style=flat&logo=redhatopenshift&logoColor=white)
+- **[Atrium](https://david.vornholt.online/works/atrium)** — Founder. A platform
+  for the operative day of a school, built around one typed contract from API
+  to screen and currently in pilot at its first school.
+- **[ProsaBridge](https://david.vornholt.online/works/prosabridge)** — Co-founder
+  & CTO. Context-aware LLM translation for complete manuscripts while
+  preserving terminology, document structure, and editorial workflows.
+- **[Freie Evangelische Schule Kirchheim](https://david.vornholt.online/works/fes-kirchheim)**
+  — Volunteer lead full-stack developer. A website engagement that grew into
+  declarative infrastructure and the first Atrium pilot.
 
-**Core Competencies**  
-*   Full-Stack Development
-*   Container Orchestration
-*   System Architecture & Scalability
-*   Database Design & APIs
+## Selected open source
 
----
+- **[runlet](https://github.com/davidvornholt/runlet)** — Secure, ephemeral
+  GitHub Actions runner orchestration for NixOS hosts and rootless Podman.
+- **[mail-mcp](https://github.com/davidvornholt/mail-mcp)** — A draft-only IMAP
+  MCP server and CLI on one shared Effect core; it reads and drafts, but never
+  sends.
+- **[punktlandung](https://github.com/davidvornholt/punktlandung)** — Grade
+  tracking for the Gymnasium in Baden-Württemberg, including weighted averages,
+  report previews, and study days.
+- **[portfolio](https://github.com/davidvornholt/portfolio)** — The source
+  behind my portfolio: typed content, case studies, a shared design system, and
+  declarative delivery.
 
-### 📜 Certifications
+## Engineering focus
 
-*   **Meta Front-End Developer Specialization** (Coursera, 2024)
-*   **Introduction to Containers w/ Docker, Kubernetes & OpenShift**
-*   Software Development certifications from IBM & UC Irvine
+- **Product engineering:** TypeScript, Effect, Bun, Next.js, TanStack Start,
+  PostgreSQL, and Tailwind CSS.
+- **AI engineering:** LLM pipelines, MCP servers, structured outputs, agent
+  skills, and verified review loops.
+- **Infrastructure:** NixOS, OpenTofu, Podman, SOPS, GitHub Actions, and Caddy.
+- **Quality:** strict TypeScript, Biome, Playwright + Axe, WCAG 2.2 AA, and
+  fail-closed CI.
 
----
+## Elsewhere
 
-### 📫 Connect with Me
-
-*   📧 **Email:** [david@vornholt.online](mailto:david@vornholt.online)
-*   🌐 **Website:** [david.vornholt.online](https://david.vornholt.online)
-*   💼 **LinkedIn:** [David Vornholt](https://www.linkedin.com/in/david-vornholt-055239366)
+[Portfolio](https://david.vornholt.online) ·
+[LinkedIn](https://www.linkedin.com/in/david-vornholt-055239366) ·
+[Email](mailto:david@vornholt.online)
